@@ -27,5 +27,10 @@ namespace HALLOWORLD
             MessageBox.Show("HALLO WORLD");
 
         }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
