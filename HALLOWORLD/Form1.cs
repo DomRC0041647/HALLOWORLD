@@ -24,13 +24,18 @@ namespace HALLOWORLD
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("HALLO WORLD");
+            pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
 
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
